@@ -1,6 +1,6 @@
 def reverse_each_word(string)
   result = ""
-  array = string.split("  ")
+  array = string.split("  ").reverse
   array.map do |twist|
     result << twist.reverse
   end
