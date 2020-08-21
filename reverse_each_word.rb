@@ -4,4 +4,5 @@ def reverse_each_word(string)
   array.map do |twist|
     result << twist.reverse
   end
+  result.reverse
 end
