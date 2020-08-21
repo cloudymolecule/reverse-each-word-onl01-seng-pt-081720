@@ -3,5 +3,5 @@ def reverse_each_word(string)
   array.map do |twist|
     twist.reverse
   end
-  puts array
+  return array
 end
